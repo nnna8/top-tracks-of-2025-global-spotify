@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1DB954;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.playlist {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.song {
+  background-color: #181818;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.song:hover {
+  background-color: #222222;
+  transform: scale(1.02);
+}
+
+.song img {
+  width: 64px;
+  height: 64px;
+  margin-right: 15px;
+  border-radius: 4px;
+  background-color: #333;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.song-artist {
+  font-size: 14px;
+  color: #B3B3B3;
+}
